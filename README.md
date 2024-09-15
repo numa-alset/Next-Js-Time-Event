@@ -4,6 +4,7 @@ Next Js Website let you explore Events and filter them
 * Next js Page router
 * css.module for styling
 * firebase Realtime database
+* SEO friendly
 
 
 #### Installation

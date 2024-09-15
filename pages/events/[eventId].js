@@ -6,6 +6,7 @@ import EventLogistics from '../../components/event-detail/event-logistics';
 import EventContent from '../../components/event-detail/event-content';
 import ErrorAlert from '../../components/ui/error-alert';
 import { getAllEvents, getEventsById } from '../../helpers/api-utils';
+import Head from 'next/head';
 
 function EventDetailPage (props) {
 
@@ -21,6 +22,10 @@ function EventDetailPage (props) {
 
   return (
     <Fragment>
+      <Head>
+        <title>{event.title}</title>
+        <meta name="description" content='find alot event to evolve' />
+      </Head>
       <EventSummary title={event.title} />
       <EventLogistics
         date={event.date}
