@@ -3,7 +3,8 @@ Next Js Website let you explore Events and filter them
 ## Features
 * Next js Page router
 * css.module for styling
-* firebase Realtime database
+* firebase Realtime database for events
+* mongodb database for comments 
 * SEO friendly
 
 
